@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+
+.imagenLogo{
+    height: 40px;
+   
+}
+.navbar-brand{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+   
+
+}
+.navbar-brand span{
+    color: #ed7161;
+    font-size: 1.2em;
+    
+
+}
+
+.navPosition{
+    margin-left: 30px;
+    font-size: 1.2em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+   
+}
+
+
+.navPosition .botonResaltado{
+    background-color: #1da867;
+    border-radius: 5px;
+}
+
+.navPosition .botonResaltado:hover{
+    background-color: #0ed478;
+    
+}
+
+.d-flex button{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+.d-flex button:hover{
+    background-color: #0ed478;
+    color: black;
+}
+
+.navPosition li:hover{
+    background-color: #c0e7c1;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 894px) {
+    .imagenLogo{
+        display: none;
+        
+    }
+    .navPosition{
+        margin-left: 0;
+    }
+    .navbar-brand{
+        margin-left: 0;
+       
+    
+    }
+
+    }
+
