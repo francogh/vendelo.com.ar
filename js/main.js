@@ -1,14 +1,33 @@
-// let nombre = prompt('ingrese su nombre');
+
+guardarLocalStorage();
+
+obtenerLocalStorage();
+
+function obtenerLocalStorage (){
+
+    let nombre = localStorage.getItem("nombre");
+    let persona = JSON.parse( localStorage.getItem("persona "));
+
+    console.log(nombre);
+    console.log(persona);
 
 
-// console.log (nombre);
 
-let nombre = prompt('Ingrese su nombre');
-alert('Hola' + ' ' + nombre);
+}
 
-let edad = prompt('Ingrese su edad');
-let edadInt = parseInt(edad);
+function guardarLocalStorage(){
 
-let anioActual = 2021;
+    let persona = {
+        nombre: "Franco",
+        apellido: "Ghiotti",
+        edad: 34,
+        correo: "fracoghiotti@gmail.com",
 
-console.log('Tu nombre es ' + nombre + ' ' +'y naciste en el año' + ' ' + (anioActual - edadInt));
+    };
+
+        let nombre = "juan";
+
+        localStorage.setItem("nombre", nombre);
+        localStorage.setItem("persona", JSON.stringify (persona));
+
+}

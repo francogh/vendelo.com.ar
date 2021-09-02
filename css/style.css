@@ -199,7 +199,7 @@ body{
 /* FOOTER */
 
 #footer {
-    height: 16vh;
+    height: 18vh;
     background: #9FE6A0;
     padding: 0 0;
     color: rgb(5, 5, 5);
@@ -239,6 +239,7 @@ body{
     border: 1px solid #000;
   }
   .icon-redes li a .fa{
+    
     position: relative;
     color: #262626;
     transition: 0.5s;
