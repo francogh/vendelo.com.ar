@@ -10,6 +10,9 @@
         <!-- <script src="./js/main.js"></script> -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/style.css">
@@ -17,7 +20,7 @@
         <title>Vendelo.com.ar</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #9FE6A0;">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light " style="background-color: #9FE6A0;">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -70,103 +73,284 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-        <!-- ASIDE NAVEGABLE -->
+        <!-- ICONOS DE NAVEGACION --> 
+          <div class="rowContainer">
+            <div class="rowIcon">
+              <div class="dropdown">
+                <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-car iconZise"></i>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Autos</a></li>
+                  <li><a class="dropdown-item" href="#">Motos</a></li>
+                  <li><a class="dropdown-item" href="#">Pick-ups</a></li>
+                  <li><a class="dropdown-item" href="#">Cuatriciclos</a></li>
+                  <li><a class="dropdown-item" href="#">Camiones</a></li>
+                  <li><a class="dropdown-item" href="#">Colectivos</a></li>
+                  <li><a class="dropdown-item" href="#">Nautica</a></li>
+                  <li><a class="dropdown-item" href="#">Remolques</a></li>
+                  <li><a class="dropdown-item" href="#">Otros Vahiculos</a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-home iconZise"></i>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Casas</a></li>
+                  <li><a class="dropdown-item" href="#">Departamentos</a></li>
+                  <li><a class="dropdown-item" href="#">Lotes</a></li>
+                  <li><a class="dropdown-item" href="#">Campos</a></li>
+                  <li><a class="dropdown-item" href="#">Locales</a></li>
+                  <li><a class="dropdown-item" href="#">Oficinas</a></li>
+                  <li><a class="dropdown-item" href="#">Galpones</a></li>
+                  <li><a class="dropdown-item" href="#">Otros Inmuebles</a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-laptop iconZise"></i>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Cámaras</a></li>
+                  <li><a class="dropdown-item" href="#">Celulares</a></li>
+                  <li><a class="dropdown-item" href="#">PCs</a></li>
+                  <li><a class="dropdown-item" href="#">Notebooks</a></li>
+                  <li><a class="dropdown-item" href="#">Consolas</a></li>
+                  <li><a class="dropdown-item" href="#">Electronica</a></li>
+                  <li><a class="dropdown-item" href="#">TVs</a></li>
+                  <li><a class="dropdown-item" href="#">Otros Articulos</a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-cash-register iconZise"></i>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Electrodomesticos</a></li>
+                  <li><a class="dropdown-item" href="#">Oficina</a></li>
+                  <li><a class="dropdown-item" href="#">Salud</a></li>
+                  <li><a class="dropdown-item" href="#">Antiguedades</a></li>
+                  <li><a class="dropdown-item" href="#">Hogar</a></li>
+                  <li><a class="dropdown-item" href="#">Jardin</a></li>
+                  <li><a class="dropdown-item" href="#">Otros Equipamientos</a></li>
+                  <li><a class="dropdown-item" href="#">Industria</a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-briefcase iconZise"></i>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Contabilidad</a></li>
+                  <li><a class="dropdown-item" href="#">Diseño</a></li>
+                  <li><a class="dropdown-item" href="#">Capacitaciones</a></li>
+                  <li><a class="dropdown-item" href="#">Cadeteria</a></li>
+                  <li><a class="dropdown-item" href="#">Eventos</a></li>
+                  <li><a class="dropdown-item" href="#">Fotografia</a></li>
+                  <li><a class="dropdown-item" href="#">Construccion</a></li>
+                  <li><a class="dropdown-item" href="#">Salud</a></li>
+                  <li><a class="dropdown-item" href="#">Ropa</a></li>
+                  <li><a class="dropdown-item" href="#">Turismo</a></li>
+                  <li><a class="dropdown-item" href="#">Otros Servicios</a></li>
+                  <li><a class="dropdown-item" href="#">Belleza</a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-boxes iconZise"></i>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Mascotas</a></li>
+                  <li><a class="dropdown-item" href="#">Arte</a></li>
+                  <li><a class="dropdown-item" href="#">Bebes</a></li>
+                  <li><a class="dropdown-item" href="#">Deporte</a></li>
+                  <li><a class="dropdown-item" href="#">Juegos</a></li>
+                  <li><a class="dropdown-item" href="#">Musica</a></li>
+                  <li><a class="dropdown-item" href="#">Otras Categorias</a></li>
+                  <li><a class="dropdown-item" href="#">Alimentos y bebidas</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        <!-- PUBLICACIONES -->
         <section id="blog-two" class="section-padding fadeInUp">
           <div class="container">
             <div class="row">
-              <div class="col-md-3 col-sm-6 centrarCard">
+              <div class="col-md-4 col-sm-6 col-xl-2 centrarCard">
                 <a href="#">
                 <div class="card">
                   <img src="./img/malcom.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h5 class="card-title"><i class="fas fa-star"></i>Card title</i></h5>
                     </div>
                 </div>
               </a>  
               </div>
-              <div class="col-md-3 col-sm-6 centrarCard">
+              <div class="col-md-4 col-sm-6 col-xl-2 centrarCard">
                 <a href="#">
                 <div class="card" >
                   <img src="./img/malcom.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title"><i class="fas fa-star"></i>Card title</i></h5>
                   </div>
                 </div>
               </a>
               </div>
-              <div class="col-md-3 col-sm-6 centrarCard">
+              <div class="col-md-4 col-sm-6 col-xl-2 centrarCard">
                 <a href="#">
                 <div class="card" >
                   <img src="./img/malcom.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title"><i class="fas fa-star"></i>Card title</i></h5>
                   </div>
                 </div>
               </a>
               </div>
-              <div class="col-md-3 col-sm-6 centrarCard">
+              <div class="col-md-4 col-sm-6 col-xl-2 centrarCard">
                 <a href="#">
                 <div class="card">
                   <img src="./img/malcom.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title"><i class="fas fa-star"></i>Card title</i></h5>
                   </div>
                 </div>
               </a>
               </div>
-              <div class="col-md-3 col-sm-6 centrarCard">
+              <div class="col-md-4 col-sm-6 col-xl-2 centrarCard">
                 <a href="#">
                 <div class="card">
                   <img src="./img/malcom.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title"><i class="fas fa-star"></i>Card title</i></h5>
                   </div>
                 </div>
               </a>
               </div>
-              <div class="col-md-3 col-sm-6 centrarCard">
+              <div class="col-md-4 col-sm-6 col-xl-2 centrarCard">
                 <a href="#">
                 <div class="card">
                   <img src="./img/malcom.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title"><i class="fas fa-star"></i>Card title</i></h5>
                   </div>
                 </div>
               </a>
               </div>
-              <div class="col-md-3 col-sm-6 centrarCard">
+              <div class="col-md-4 col-sm-6 col-xl-2 centrarCard">
                 <a href="#">
                 <div class="card">
                   <img src="./img/malcom.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title"><i class="fas fa-star"></i>Card title</i></h5>
                   </div>
                 </div>
               </a>
               </div>
-              <div class="col-md-3 col-sm-6 centrarCard">
+              <div class="col-md-4 col-sm-6 col-xl-2 centrarCard">
                 <a href="#">
                 <div class="card">
                   <img src="./img/malcom.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title"><i class="fas fa-star"></i>Card title</i></h5>
                   </div>
                 </div>
               </a>
               </div>
-              <div class="col-md-3 col-sm-6 centrarCard">
+              <div class="col-md-4 col-sm-6 col-xl-2 centrarCard">
                 <a href="#">
                 <div class="card">
                   <img src="./img/malcom.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title"><i class="fas fa-star"></i>Card title</i></h5>
+                  </div>
+                </div>
+              </a>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xl-2 centrarCard">
+                <a href="#">
+                <div class="card">
+                  <img src="./img/malcom.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-star"></i>Card title</i></h5>
+                  </div>
+                </div>
+              </a>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xl-2 centrarCard">
+                <a href="#">
+                <div class="card">
+                  <img src="./img/malcom.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-star"></i>Card title</i></h5>
+                  </div>
+                </div>
+              </a>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xl-2 centrarCard">
+                <a href="#">
+                <div class="card">
+                  <img src="./img/malcom.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-star"></i>Card title</i></h5>
+                  </div>
+                </div>
+              </a>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xl-2 centrarCard">
+                <a href="#">
+                <div class="card">
+                  <img src="./img/malcom.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-star"></i>Card title</i></h5>
+                  </div>
+                </div>
+              </a>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xl-2 centrarCard">
+                <a href="#">
+                <div class="card">
+                  <img src="./img/malcom.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-star"></i>Card title</i></h5>
+                  </div>
+                </div>
+              </a>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xl-2 centrarCard">
+                <a href="#">
+                <div class="card">
+                  <img src="./img/malcom.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-star"></i>Card title</i></h5>
                   </div>
                 </div>
               </a>
               </div>
             </div>
           </div>
-        
+          <footer id="footer">
+            <div class="containerFooter">
+              <div class="row">
+                <div class="col-12">
+                  <ul class="icon-redes">
+                    <li><a href="https://es-la.facebook.com/acdc" target="_blank"><i class="fa fa-facebook"></i></a> </li>
+                    <li><a href="https://www.instagram.com/acdc/?hl=es-la" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCB0JSO6d5ysH2Mmqz5I9rIw" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://twitter.com/acdc?lang=es" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="copyright">
+                    &copy; Copyright <strong>Autor Franco Ghiotti</strong>. All Rights
+                    Reserved
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>    
         
     </body>
     </html>
